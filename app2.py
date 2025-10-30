@@ -15,7 +15,7 @@ st.header("📊 Visualizations")
 plt.hist(df['rent_month'], bins=30, color='skyblue', edgecolor='black')
 # ... more plotting code ...
 st.pyplot(plt.gcf())
-st.pyplot()` displays the plot in the Streamlit app
+st.pyplot() displays the plot in the Streamlit app
 csv = df.to_csv(index=False).encode('utf-8')
 st.download_button(
     label="Download Cleaned Data as CSV",
