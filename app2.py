@@ -23,7 +23,6 @@ st.download_button(
     file_name='cleaned_rental_data.csv',
     mime='text/csv',
 )
-```
 st.download_button()` 
 
 
