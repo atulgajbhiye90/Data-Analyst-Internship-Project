@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 st.title("🏠 Rental Property Data Analysis - India")
 upload_file=st.file_uploader
